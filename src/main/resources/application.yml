@@ -1,0 +1,41 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.159.128/sell?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  jackson:
+    default-property-inclusion: non_null #内容为null,不写入json
+
+
+  redis:
+    host: 192.168.159.128
+
+
+
+projecturl:
+  sell: http://localhost:8080
+
+
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  # path: "D:/02_WorkSpace/sell/sell.log"
+#  file: D:/02_WorkSpace/sell/sell.log
+#  level:
+#    root: info
+server:
+  servlet:
+    context-path: /sell
+wechat:
+  mpAppId: wxd898fcb01713c658
+  mchId: 1483469312
+  mchKey: C5245D70627C1F8E9964D494B0735025
+logging:
+  level:
+    com.logmei.sell.dataobject.mapper: trace //日志级别设置到包下

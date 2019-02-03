@@ -1,0 +1,42 @@
+2019-01-17 23:27:47 [main] INFO      - Starting SellApplication on logmei-PC with PID 47108 (D:\02_WorkSpace\sell\target\classes started by logmei in D:\02_WorkSpace\sell)
+2019-01-17 23:27:47 [main] INFO      - No active profile set, falling back to default profiles: default
+2019-01-17 23:27:49 [main] INFO      - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-17 23:27:49 [main] INFO      - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-17 23:27:49 [main] INFO      - Finished Spring Data repository scanning in 142ms. Found 5 repository interfaces.
+2019-01-17 23:27:49 [main] INFO      - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-17 23:27:49 [main] INFO      - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-17 23:27:49 [main] INFO      - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.OrderDetailRepository.
+2019-01-17 23:27:49 [main] INFO      - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.OrderMasterRepository.
+2019-01-17 23:27:49 [main] INFO      - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.ProductCategoryRepository.
+2019-01-17 23:27:49 [main] INFO      - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.ProductInfoRepository.
+2019-01-17 23:27:49 [main] INFO      - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.SellerInfoRepository.
+2019-01-17 23:27:49 [main] INFO      - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-01-17 23:27:50 [main] INFO      - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2828e370] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-17 23:27:51 [main] INFO      - Tomcat initialized with port(s): 8080 (http)
+2019-01-17 23:27:51 [main] INFO      - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-17 23:27:51 [main] INFO      - Starting service [Tomcat]
+2019-01-17 23:27:51 [main] INFO      - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-17 23:27:51 [main] INFO      - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\System32\wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files (x86)\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;D:\mysql-5.6.24-win32\bin;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;D:\maven\apache-maven-3.3.9\bin;C:\Windows\System32;C:\WINDOWS\System32\Wbem;C:\Program Files\nodejs\;C:\Program Files\SlikSvn\bin;D:\Python27;D:\Python27\Scripts;D:\apache-maven-3.5.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;d:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Windows\System32\wbem;C:\Windows\System32;C:\Users\logmei\AppData\Local\Microsoft\WindowsApps;C:\Users\logmei\AppData\Roaming\npm;D:\Python27\Scripts;.]
+2019-01-17 23:27:51 [main] INFO      - Initializing Spring embedded WebApplicationContext
+2019-01-17 23:27:51 [main] INFO      - Root WebApplicationContext: initialization completed in 3971 ms
+2019-01-17 23:27:51 [main] INFO      - HikariPool-1 - Starting...
+2019-01-17 23:27:52 [main] INFO      - HikariPool-1 - Start completed.
+2019-01-17 23:27:52 [main] INFO      - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-17 23:27:52 [main] INFO      - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-17 23:27:52 [main] INFO      - HHH000206: hibernate.properties not found
+2019-01-17 23:27:52 [main] INFO      - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-17 23:27:52 [main] INFO      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-17 23:27:53 [main] INFO      - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-17 23:27:55 [main] INFO      - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-17 23:27:55 [main] WARN      - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-17 23:27:56 [main] INFO      - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-17 23:27:56 [main] INFO      - Using a shared selector for servlet write/read
+2019-01-17 23:27:56 [main] INFO      - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-01-17 23:27:56 [main] INFO      - Started SellApplication in 9.377 seconds (JVM running for 11.083)
+2019-01-17 23:28:40 [http-nio-8080-exec-2] INFO      - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-17 23:28:40 [http-nio-8080-exec-2] INFO      - Initializing Servlet 'dispatcherServlet'
+2019-01-17 23:28:40 [http-nio-8080-exec-2] INFO      - Completed initialization in 21 ms
+2019-01-17 23:28:40 [http-nio-8080-exec-2] INFO      - Starting without optional epoll library
+2019-01-17 23:28:40 [http-nio-8080-exec-2] INFO      - Starting without optional kqueue library

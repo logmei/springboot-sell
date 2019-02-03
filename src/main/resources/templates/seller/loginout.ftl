@@ -1,0 +1,1 @@
+<h2>${msg}，<a href="/sell/seller/login?openid=123">重新登录系统</a></h2>

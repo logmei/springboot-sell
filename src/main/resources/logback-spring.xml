@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+  <!--根节点-->
+ <!--scan:true如果配置文件改变，将重新加载；scanPeriod：检测配置文件修改时间的设置；debug:打印logback内部日志-->
+<configuration scan = "true" scanPeriod = "60 seconds" debug = "false">
+    <!--写日志的组件-->
+    <appender name = "consoleLog" class = "ch.qos.logback.core.ConsoleAppender">
+         <encoder>
+             <pattern>%d - %msg%n</pattern>
+         </encoder>
+    </appender>
+
+    <appender name="infoFile" class="ch.qos.logback.core.FileAppender">
+        <!--过滤不需要的级别，两个以上前面的onMismatch需要设置为NEUTRAL-->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>DEBUG</level>
+            <onMatch>DENY</onMatch>
+            <onMismatch>NEUTRAL</onMismatch>
+        </filter>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>DENY</onMatch>
+            <onMismatch>ACCEPT</onMismatch>
+        </filter>
+        <!--可以是相对路径也可以是绝对路径-->
+        <file>./logFile/info.log</file>
+        <!--true为追加文件结尾，false清空现有文件-->
+        <append>false</append>
+        <encoder>
+            <pattern>%4d{yyyy-MM-dd HH:mm:ss} [%thread] %-8level  - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--日志添加到文件-->
+    <appender name ="infoRollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>DENY</onMatch>
+            <onMismatch>ACCEPT</onMismatch>
+        </filter>
+        <append>true</append>
+        <encoder>
+            <pattern>%4d{yyyy-MM-dd HH:mm:ss} %15([%thread]) %-8level %logger{35} - %msg%n</pattern>
+        </encoder>
+
+        <!--fileNamePattern中必须有%i -->
+        <rollingPolicy class = "ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>./logFile/infoRollingFile.%d.%i.log</fileNamePattern>
+             <!--文件最大1MB 注意单位要写全-->
+            <maxFileSize>1MB</maxFileSize>
+            <!--保存6天的文件-->
+            <maxHistory>6</maxHistory>
+            <!--最大20GB-->
+            <totalSizeCap>20GB</totalSizeCap>
+        </rollingPolicy>
+
+        <!--TimeBasedRollingPolicy和SizeBaseTriggeringPolicy冲突，若想同时用需要用SizeAndTimeBasedRollingPolicy-->
+        <!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>./logFile/info.%i-%d.log</fileNamePattern>
+            &lt;!&ndash; 当天的日志大小 超过1M 不能有单位时,压缩日志并保存 &ndash;&gt;
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>3MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            &lt;!&ndash;保留最大文件个数&ndash;&gt;
+            <maxHistory>6</maxHistory>
+        </rollingPolicy>-->
+           <!--当文件大于5M时生成新的日志文件-->
+        <!--<triggeringPolicy class = "ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>5KB</maxFileSize>
+        </triggeringPolicy>-->
+
+    </appender>
+
+    <appender name="errorFile" class="ch.qos.logback.core.FileAppender">
+        <!--过滤，只显示error-->
+        <filter class = "ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+        <file>./logFile/error.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%4d{yyyy-MM-dd } [%thread] %level %msg%n</pattern>
+        </encoder>
+    </appender>
+    <root level = "INFO">
+       <appender-ref ref="consoleLog"></appender-ref>
+        <appender-ref ref="infoFile"></appender-ref>
+        <appender-ref ref="infoRollingFile"></appender-ref>
+        <appender-ref ref="errorFile"></appender-ref>
+    </root>
+</configuration>

@@ -1,0 +1,329 @@
+2019-01-15 14:43:40          [main] INFO     com.logmei.sell.SellApplication - Starting SellApplication on logmei-PC with PID 15916 (D:\02_WorkSpace\sell\target\classes started by logmei in D:\02_WorkSpace\sell)
+2019-01-15 14:43:40          [main] INFO     com.logmei.sell.SellApplication - No active profile set, falling back to default profiles: default
+2019-01-15 14:43:42          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-15 14:43:42          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 211ms. Found 4 repository interfaces.
+2019-01-15 14:43:43          [main] INFO     o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b6c7c44] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-15 14:43:44          [main] INFO     o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-15 14:43:44          [main] INFO     o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-15 14:43:44          [main] INFO     o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-15 14:43:44          [main] INFO     o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-15 14:43:45          [main] INFO     o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\System32\wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files (x86)\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;D:\mysql-5.6.24-win32\bin;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;D:\maven\apache-maven-3.3.9\bin;C:\Windows\System32;C:\WINDOWS\System32\Wbem;C:\Program Files\nodejs\;C:\Program Files\SlikSvn\bin;D:\Python27;D:\Python27\Scripts;D:\apache-maven-3.5.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;d:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Windows\System32\wbem;C:\Windows\System32;C:\Users\logmei\AppData\Local\Microsoft\WindowsApps;C:\Users\logmei\AppData\Roaming\npm;D:\Python27\Scripts;.]
+2019-01-15 14:43:46          [main] INFO     o.a.c.c.C.[.[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2019-01-15 14:43:46          [main] INFO     o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5959 ms
+2019-01-15 14:43:46          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-15 14:43:57          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-15 14:43:57          [main] INFO     o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-15 14:43:57          [main] INFO     org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-15 14:43:57          [main] INFO     org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-15 14:43:57          [main] INFO     o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-15 14:43:58          [main] INFO     org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-15 14:44:01          [main] INFO     o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-15 14:44:06          [main] INFO     o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-15 14:44:06          [main] WARN     o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-15 14:44:07          [main] INFO     o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-15 14:44:07          [main] INFO     o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-15 14:44:07          [main] INFO     o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-01-15 14:44:07          [main] INFO     com.logmei.sell.SellApplication - Started SellApplication in 29.193 seconds (JVM running for 33.834)
+2019-01-15 15:04:24 [http-nio-8080-exec-2] INFO     o.a.c.c.C.[.[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-15 15:04:24 [http-nio-8080-exec-2] INFO     o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-15 15:04:24 [http-nio-8080-exec-2] INFO     o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2019-01-15 15:04:25 [http-nio-8080-exec-2] INFO     o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-15 17:04:35          [main] INFO     c.l.s.s.i.SellerInfoServiceImplTest - Starting SellerInfoServiceImplTest on logmei-PC with PID 22412 (started by logmei in D:\02_WorkSpace\sell)
+2019-01-15 17:04:35          [main] INFO     c.l.s.s.i.SellerInfoServiceImplTest - No active profile set, falling back to default profiles: default
+2019-01-15 17:04:38          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-15 17:04:38          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 177ms. Found 5 repository interfaces.
+2019-01-15 17:04:39          [main] INFO     o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7c267930] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-15 17:04:39          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-15 17:04:40          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-15 17:04:40          [main] INFO     o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-15 17:04:40          [main] INFO     org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-15 17:04:40          [main] INFO     org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-15 17:04:41          [main] INFO     o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-15 17:04:42          [main] INFO     org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-15 17:04:44          [main] INFO     o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-15 17:04:53          [main] INFO     o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-15 17:04:53          [main] WARN     o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-15 17:04:54          [main] INFO     c.l.s.s.i.SellerInfoServiceImplTest - Started SellerInfoServiceImplTest in 20.354 seconds (JVM running for 23.747)
+2019-01-15 17:04:55          [main] INFO     o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-15 17:04:56      [Thread-2] INFO     o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-15 17:04:56      [Thread-2] INFO     o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-15 17:04:56      [Thread-2] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-15 17:04:56      [Thread-2] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-15 17:06:11          [main] INFO     c.l.s.s.i.SellerInfoServiceImplTest - Starting SellerInfoServiceImplTest on logmei-PC with PID 15296 (started by logmei in D:\02_WorkSpace\sell)
+2019-01-15 17:06:11          [main] INFO     c.l.s.s.i.SellerInfoServiceImplTest - No active profile set, falling back to default profiles: default
+2019-01-15 17:06:15          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-15 17:06:15          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 148ms. Found 5 repository interfaces.
+2019-01-15 17:06:15          [main] INFO     o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$53a9a982] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-15 17:06:16          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-15 17:06:16          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-15 17:06:16          [main] INFO     o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-15 17:06:16          [main] INFO     org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-15 17:06:16          [main] INFO     org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-15 17:06:17          [main] INFO     o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-15 17:06:17          [main] INFO     org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-15 17:06:19          [main] INFO     o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-15 17:06:22          [main] INFO     o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-15 17:06:22          [main] WARN     o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-15 17:06:23          [main] INFO     c.l.s.s.i.SellerInfoServiceImplTest - Started SellerInfoServiceImplTest in 13.452 seconds (JVM running for 15.509)
+2019-01-15 17:06:23          [main] INFO     o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-15 17:06:24      [Thread-2] INFO     o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-15 17:06:24      [Thread-2] INFO     o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-15 17:06:24      [Thread-2] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-15 17:06:24      [Thread-2] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-15 17:09:00          [main] INFO     com.logmei.sell.SellApplication - Starting SellApplication on logmei-PC with PID 24788 (D:\02_WorkSpace\sell\target\classes started by logmei in D:\02_WorkSpace\sell)
+2019-01-15 17:09:00          [main] INFO     com.logmei.sell.SellApplication - No active profile set, falling back to default profiles: default
+2019-01-15 17:09:01          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-15 17:09:01          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 142ms. Found 5 repository interfaces.
+2019-01-15 17:09:02          [main] INFO     o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$172078ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-15 17:09:03          [main] INFO     o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-15 17:09:03          [main] INFO     o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-15 17:09:03          [main] INFO     o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-15 17:09:03          [main] INFO     o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-15 17:09:03          [main] INFO     o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\System32\wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files (x86)\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;D:\mysql-5.6.24-win32\bin;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;D:\maven\apache-maven-3.3.9\bin;C:\Windows\System32;C:\WINDOWS\System32\Wbem;C:\Program Files\nodejs\;C:\Program Files\SlikSvn\bin;D:\Python27;D:\Python27\Scripts;D:\apache-maven-3.5.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;d:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Windows\System32\wbem;C:\Windows\System32;C:\Users\logmei\AppData\Local\Microsoft\WindowsApps;C:\Users\logmei\AppData\Roaming\npm;D:\Python27\Scripts;.]
+2019-01-15 17:09:04          [main] INFO     o.a.c.c.C.[.[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2019-01-15 17:09:04          [main] INFO     o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3589 ms
+2019-01-15 17:09:04          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-15 17:09:04          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-15 17:09:04          [main] INFO     o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-15 17:09:04          [main] INFO     org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-15 17:09:04          [main] INFO     org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-15 17:09:05          [main] INFO     o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-15 17:09:05          [main] INFO     org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-15 17:09:06          [main] INFO     o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-15 17:09:07          [main] INFO     o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-15 17:09:07          [main] WARN     o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-15 17:09:07          [main] INFO     o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-15 17:09:07          [main] INFO     o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-15 17:09:07          [main] INFO     o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-01-15 17:09:07          [main] INFO     com.logmei.sell.SellApplication - Started SellApplication in 8.333 seconds (JVM running for 10.072)
+2019-01-15 17:10:04 [http-nio-8080-exec-1] INFO     o.a.c.c.C.[.[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-15 17:10:04 [http-nio-8080-exec-1] INFO     o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-15 17:10:04 [http-nio-8080-exec-1] INFO     o.s.web.servlet.DispatcherServlet - Completed initialization in 263 ms
+2019-01-15 17:10:04 [http-nio-8080-exec-1] WARN     o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2019-01-15 17:12:06 [http-nio-8080-exec-4] INFO     o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-15 18:50:31          [main] INFO     com.logmei.sell.SellApplication - Starting SellApplication on logmei-PC with PID 13380 (D:\02_WorkSpace\sell\target\classes started by logmei in D:\02_WorkSpace\sell)
+2019-01-15 18:50:31          [main] INFO     com.logmei.sell.SellApplication - No active profile set, falling back to default profiles: default
+2019-01-15 18:50:33          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-15 18:50:33          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-15 18:50:33          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 217ms. Found 5 repository interfaces.
+2019-01-15 18:50:33          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-15 18:50:33          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-15 18:50:33          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.OrderDetailRepository.
+2019-01-15 18:50:33          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.OrderMasterRepository.
+2019-01-15 18:50:33          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.ProductCategoryRepository.
+2019-01-15 18:50:33          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.ProductInfoRepository.
+2019-01-15 18:50:33          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.SellerInfoRepository.
+2019-01-15 18:50:33          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-01-15 18:50:34          [main] INFO     o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b312e014] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-15 18:50:35          [main] INFO     o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-15 18:50:35          [main] INFO     o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-15 18:50:35          [main] INFO     o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-15 18:50:35          [main] INFO     o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-15 18:50:35          [main] INFO     o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\System32\wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files (x86)\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;D:\mysql-5.6.24-win32\bin;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;D:\maven\apache-maven-3.3.9\bin;C:\Windows\System32;C:\WINDOWS\System32\Wbem;C:\Program Files\nodejs\;C:\Program Files\SlikSvn\bin;D:\Python27;D:\Python27\Scripts;D:\apache-maven-3.5.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;d:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Windows\System32\wbem;C:\Windows\System32;C:\Users\logmei\AppData\Local\Microsoft\WindowsApps;C:\Users\logmei\AppData\Roaming\npm;D:\Python27\Scripts;.]
+2019-01-15 18:50:35          [main] INFO     o.a.c.c.C.[.[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2019-01-15 18:50:35          [main] INFO     o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4063 ms
+2019-01-15 18:50:36          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-15 18:50:36          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-15 18:50:36          [main] INFO     o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-15 18:50:36          [main] INFO     org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-15 18:50:36          [main] INFO     org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-15 18:50:36          [main] INFO     o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-15 18:50:37          [main] INFO     org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-15 18:50:38          [main] INFO     o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-15 18:50:41          [main] INFO     o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-15 18:50:41          [main] WARN     o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-15 18:50:41          [main] INFO     o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-15 18:50:41          [main] INFO     o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-15 18:50:41          [main] INFO     o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-01-15 18:50:41          [main] INFO     com.logmei.sell.SellApplication - Started SellApplication in 11.844 seconds (JVM running for 13.783)
+2019-01-15 18:53:12 [http-nio-8080-exec-1] INFO     o.a.c.c.C.[.[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-15 18:53:12 [http-nio-8080-exec-1] INFO     o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-15 18:53:12 [http-nio-8080-exec-1] INFO     o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-01-15 18:56:04          [main] INFO     com.logmei.sell.SellApplication - Starting SellApplication on logmei-PC with PID 14552 (D:\02_WorkSpace\sell\target\classes started by logmei in D:\02_WorkSpace\sell)
+2019-01-15 18:56:04          [main] INFO     com.logmei.sell.SellApplication - No active profile set, falling back to default profiles: default
+2019-01-15 18:56:06          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-15 18:56:06          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-15 18:56:06          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 158ms. Found 5 repository interfaces.
+2019-01-15 18:56:06          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-15 18:56:06          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-15 18:56:06          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.OrderDetailRepository.
+2019-01-15 18:56:06          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.OrderMasterRepository.
+2019-01-15 18:56:06          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.ProductCategoryRepository.
+2019-01-15 18:56:06          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.ProductInfoRepository.
+2019-01-15 18:56:06          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.SellerInfoRepository.
+2019-01-15 18:56:06          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-01-15 18:56:07          [main] INFO     o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6747d005] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-15 18:56:07          [main] INFO     o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-15 18:56:07          [main] INFO     o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-15 18:56:08          [main] INFO     o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-15 18:56:08          [main] INFO     o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-15 18:56:08          [main] INFO     o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\System32\wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files (x86)\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;D:\mysql-5.6.24-win32\bin;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;D:\maven\apache-maven-3.3.9\bin;C:\Windows\System32;C:\WINDOWS\System32\Wbem;C:\Program Files\nodejs\;C:\Program Files\SlikSvn\bin;D:\Python27;D:\Python27\Scripts;D:\apache-maven-3.5.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;d:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Windows\System32\wbem;C:\Windows\System32;C:\Users\logmei\AppData\Local\Microsoft\WindowsApps;C:\Users\logmei\AppData\Roaming\npm;D:\Python27\Scripts;.]
+2019-01-15 18:56:08          [main] INFO     o.a.c.c.C.[.[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2019-01-15 18:56:08          [main] INFO     o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3382 ms
+2019-01-15 18:56:08          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-15 18:56:10          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-15 18:56:10          [main] INFO     o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-15 18:56:10          [main] INFO     org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-15 18:56:10          [main] INFO     org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-15 18:56:10          [main] INFO     o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-15 18:56:10          [main] INFO     org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-15 18:56:11          [main] INFO     o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-15 18:56:13          [main] INFO     o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-15 18:56:13          [main] WARN     o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-15 18:56:13          [main] INFO     o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-15 18:56:13          [main] INFO     o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-15 18:56:13          [main] INFO     o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-01-15 18:56:13          [main] INFO     com.logmei.sell.SellApplication - Started SellApplication in 9.75 seconds (JVM running for 11.289)
+2019-01-15 18:56:54 [http-nio-8080-exec-1] INFO     o.a.c.c.C.[.[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-15 18:56:54 [http-nio-8080-exec-1] INFO     o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-15 18:56:54 [http-nio-8080-exec-1] INFO     o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-01-15 18:57:20          [main] INFO     com.logmei.sell.SellApplication - Starting SellApplication on logmei-PC with PID 12920 (D:\02_WorkSpace\sell\target\classes started by logmei in D:\02_WorkSpace\sell)
+2019-01-15 18:57:20          [main] INFO     com.logmei.sell.SellApplication - No active profile set, falling back to default profiles: default
+2019-01-15 18:57:21          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-15 18:57:21          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-15 18:57:21          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 135ms. Found 5 repository interfaces.
+2019-01-15 18:57:21          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-15 18:57:21          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-15 18:57:21          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.OrderDetailRepository.
+2019-01-15 18:57:21          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.OrderMasterRepository.
+2019-01-15 18:57:21          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.ProductCategoryRepository.
+2019-01-15 18:57:21          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.ProductInfoRepository.
+2019-01-15 18:57:21          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.SellerInfoRepository.
+2019-01-15 18:57:21          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-01-15 18:57:22          [main] INFO     o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5de182b3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-15 18:57:22          [main] INFO     o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-15 18:57:22          [main] INFO     o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-15 18:57:22          [main] INFO     o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-15 18:57:22          [main] INFO     o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-15 18:57:22          [main] INFO     o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\System32\wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files (x86)\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;D:\mysql-5.6.24-win32\bin;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;D:\maven\apache-maven-3.3.9\bin;C:\Windows\System32;C:\WINDOWS\System32\Wbem;C:\Program Files\nodejs\;C:\Program Files\SlikSvn\bin;D:\Python27;D:\Python27\Scripts;D:\apache-maven-3.5.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;d:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Windows\System32\wbem;C:\Windows\System32;C:\Users\logmei\AppData\Local\Microsoft\WindowsApps;C:\Users\logmei\AppData\Roaming\npm;D:\Python27\Scripts;.]
+2019-01-15 18:57:23          [main] INFO     o.a.c.c.C.[.[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2019-01-15 18:57:23          [main] INFO     o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2322 ms
+2019-01-15 18:57:23          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-15 18:57:23          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-15 18:57:23          [main] INFO     o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-15 18:57:23          [main] INFO     org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-15 18:57:23          [main] INFO     org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-15 18:57:23          [main] INFO     o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-15 18:57:24          [main] INFO     org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-15 18:57:25          [main] INFO     o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-15 18:57:27          [main] INFO     o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-15 18:57:27          [main] WARN     o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-15 18:57:28          [main] INFO     o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-15 18:57:28          [main] INFO     o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-15 18:57:28          [main] INFO     o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-01-15 18:57:28          [main] INFO     com.logmei.sell.SellApplication - Started SellApplication in 9.089 seconds (JVM running for 14.727)
+2019-01-15 18:57:42 [http-nio-8080-exec-1] INFO     o.a.c.c.C.[.[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-15 18:57:42 [http-nio-8080-exec-1] INFO     o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-15 18:57:42 [http-nio-8080-exec-1] INFO     o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-01-15 19:01:26     [Thread-20] INFO     o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-15 19:01:26     [Thread-20] INFO     o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-15 19:01:26     [Thread-20] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-15 19:01:26     [Thread-20] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-15 19:01:36          [main] INFO     com.logmei.sell.SellApplication - Starting SellApplication on logmei-PC with PID 17260 (D:\02_WorkSpace\sell\target\classes started by logmei in D:\02_WorkSpace\sell)
+2019-01-15 19:01:36          [main] INFO     com.logmei.sell.SellApplication - No active profile set, falling back to default profiles: default
+2019-01-15 19:01:38          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-15 19:01:38          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-15 19:01:38          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 355ms. Found 5 repository interfaces.
+2019-01-15 19:01:38          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-15 19:01:38          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-15 19:01:38          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.OrderDetailRepository.
+2019-01-15 19:01:38          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.OrderMasterRepository.
+2019-01-15 19:01:38          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.ProductCategoryRepository.
+2019-01-15 19:01:38          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.ProductInfoRepository.
+2019-01-15 19:01:38          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.SellerInfoRepository.
+2019-01-15 19:01:38          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66ms. Found 0 repository interfaces.
+2019-01-15 19:01:39          [main] INFO     o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$40c55387] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-15 19:01:40          [main] INFO     o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-15 19:01:40          [main] INFO     o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-15 19:01:40          [main] INFO     o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-15 19:01:40          [main] INFO     o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-15 19:01:40          [main] INFO     o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\System32\wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files (x86)\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;D:\mysql-5.6.24-win32\bin;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;D:\maven\apache-maven-3.3.9\bin;C:\Windows\System32;C:\WINDOWS\System32\Wbem;C:\Program Files\nodejs\;C:\Program Files\SlikSvn\bin;D:\Python27;D:\Python27\Scripts;D:\apache-maven-3.5.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;d:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Windows\System32\wbem;C:\Windows\System32;C:\Users\logmei\AppData\Local\Microsoft\WindowsApps;C:\Users\logmei\AppData\Roaming\npm;D:\Python27\Scripts;.]
+2019-01-15 19:01:40          [main] INFO     o.a.c.c.C.[.[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2019-01-15 19:01:40          [main] INFO     o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3799 ms
+2019-01-15 19:01:40          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-15 19:01:41          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-15 19:01:41          [main] INFO     o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-15 19:01:41          [main] INFO     org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-15 19:01:41          [main] INFO     org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-15 19:01:41          [main] INFO     o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-15 19:01:41          [main] INFO     org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-15 19:01:42          [main] INFO     o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-15 19:01:44          [main] INFO     o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-15 19:01:44          [main] WARN     o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-15 19:01:45          [main] INFO     o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-15 19:01:45          [main] INFO     o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-15 19:01:45          [main] INFO     o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-01-15 19:01:45          [main] INFO     com.logmei.sell.SellApplication - Started SellApplication in 10.0 seconds (JVM running for 11.966)
+2019-01-15 19:01:57 [http-nio-8080-exec-1] INFO     o.a.c.c.C.[.[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-15 19:01:57 [http-nio-8080-exec-1] INFO     o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-15 19:01:57 [http-nio-8080-exec-1] INFO     o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2019-01-15 19:02:35 [http-nio-8080-exec-1] WARN     o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'openid' is not present]
+2019-01-15 19:03:04 [http-nio-8080-exec-4] INFO     o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-15 19:03:51 [http-nio-8080-exec-3] INFO     io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-01-15 19:03:51 [http-nio-8080-exec-3] INFO     io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-01-15 19:09:30     [Thread-23] INFO     o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-15 19:09:31     [Thread-23] INFO     o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-15 19:09:31     [Thread-23] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-15 19:09:31     [Thread-23] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-15 19:36:51          [main] INFO     com.logmei.sell.SellApplication - Starting SellApplication on logmei-PC with PID 25096 (D:\02_WorkSpace\sell\target\classes started by logmei in D:\02_WorkSpace\sell)
+2019-01-15 19:36:51          [main] INFO     com.logmei.sell.SellApplication - No active profile set, falling back to default profiles: default
+2019-01-15 19:36:55          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-15 19:36:55          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-15 19:36:55          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 207ms. Found 5 repository interfaces.
+2019-01-15 19:36:55          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-15 19:36:55          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-15 19:36:55          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.OrderDetailRepository.
+2019-01-15 19:36:55          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.OrderMasterRepository.
+2019-01-15 19:36:55          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.ProductCategoryRepository.
+2019-01-15 19:36:55          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.ProductInfoRepository.
+2019-01-15 19:36:55          [main] INFO     o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.logmei.sell.repository.SellerInfoRepository.
+2019-01-15 19:36:55          [main] INFO     o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-01-15 19:36:56          [main] INFO     o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$49cd6a0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-15 19:36:57          [main] INFO     o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-15 19:36:57          [main] INFO     o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-15 19:36:57          [main] INFO     o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-15 19:36:57          [main] INFO     o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-15 19:36:57          [main] INFO     o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\System32\wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files (x86)\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;D:\mysql-5.6.24-win32\bin;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;D:\maven\apache-maven-3.3.9\bin;C:\Windows\System32;C:\WINDOWS\System32\Wbem;C:\Program Files\nodejs\;C:\Program Files\SlikSvn\bin;D:\Python27;D:\Python27\Scripts;D:\apache-maven-3.5.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;d:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Windows\System32\wbem;C:\Windows\System32;C:\Users\logmei\AppData\Local\Microsoft\WindowsApps;C:\Users\logmei\AppData\Roaming\npm;D:\Python27\Scripts;.]
+2019-01-15 19:36:58          [main] INFO     o.a.c.c.C.[.[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2019-01-15 19:36:58          [main] INFO     o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6953 ms
+2019-01-15 19:36:58          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-15 19:36:59          [main] INFO     com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-15 19:36:59          [main] INFO     o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-15 19:36:59          [main] INFO     org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-15 19:36:59          [main] INFO     org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-15 19:36:59          [main] INFO     o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-15 19:37:00          [main] INFO     org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-15 19:37:01          [main] INFO     o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-15 19:37:05          [main] INFO     o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-15 19:37:06          [main] WARN     o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-15 19:37:12          [main] INFO     o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-15 19:37:12          [main] INFO     o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-15 19:37:13          [main] INFO     o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-01-15 19:37:13          [main] INFO     com.logmei.sell.SellApplication - Started SellApplication in 25.469 seconds (JVM running for 30.447)
+2019-01-15 19:37:27 [http-nio-8080-exec-1] INFO     o.a.c.c.C.[.[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-15 19:37:27 [http-nio-8080-exec-1] INFO     o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-15 19:37:27 [http-nio-8080-exec-1] INFO     o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-01-15 19:37:27 [http-nio-8080-exec-1] INFO     o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-15 19:37:28 [http-nio-8080-exec-1] INFO     io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-01-15 19:37:28 [http-nio-8080-exec-1] INFO     io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-01-15 20:31:46          [main] INFO     com.logmei.sell.SellApplication - Starting SellApplication on logmei-PC with PID 9056 (D:\02_WorkSpace\sell\target\classes started by logmei in D:\02_WorkSpace\sell)
+2019-01-15 20:31:46          [main] INFO     com.logmei.sell.SellApplication - No active profile set, falling back to default profiles: default
+2019-01-15 20:31:48          [main] WARN     o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.logmei.sell.SellApplication]; nested exception is org.springframework.core.annotation.AnnotationConfigurationException: In AnnotationAttributes for annotation [org.springframework.boot.context.properties.ConfigurationProperties] declared on class 'com.logmei.sell.config.ProjectUrlConfig', attribute 'prefix' and its alias 'value' are declared with values of [projectUrl] and [application.yml], but only one is permitted.
